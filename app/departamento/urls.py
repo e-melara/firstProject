@@ -1,10 +1,8 @@
 from django.urls import path
 
-
-def DesdeApps(self):
-    print('La aplicacion de departamento ya funciona')
-
+# from .views import PruebaListView, PruebaCreateView
 
 urlpatterns = [
-    path('departamento/', DesdeApps)
+    # path('lista-prueba/', PruebaListView.as_view()),
+    # path('add/', PruebaCreateView.as_view())
 ]
